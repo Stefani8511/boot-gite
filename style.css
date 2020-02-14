@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5 {
 body p {
     text-align: center;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 300px;
     line-height: 24px;
   }
   
@@ -123,6 +123,9 @@ height: 700px;
 
 /*LOGEMENTS ET EQUIPEMENTS*/
 
+#description{
+background-color: rgb(189, 204, 204);
+}
 
 #description h5{
     color: rgb(9, 9, 153);
@@ -148,6 +151,11 @@ height: 700px;
   
 }
 
+.emplacement{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 /*COMMENTAIRES*/
@@ -215,15 +223,16 @@ height: 700px;
 }*/
 
 /*FOOTER*/
-.footer{
+footer{
   background-color: grey;
-  color: rgb(70, 68, 68);
+  color: rgb(12, 11, 11);
   height:60px ;
   padding: 20px;
 }
 
 .copyright{
   text-align: center;
+
 }
 .copyright a{
   color: #fff;
