@@ -1,0 +1,230 @@
+
+/*GLOBAL*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 100%;
+    word-spacing: 8px;
+}
+
+body p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  
+  section{
+    display: block center;
+    padding:60px 0 30px 0 ;
+  }
+  
+h2{
+    margin-bottom: 50px;
+    }
+
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: rgb(78, 79, 155);
+    width: 200px;
+    content:"";
+    margin: 0 auto;
+    margin-top: 10px;
+}
+  /*HEADER*/
+  header{
+      background-image:
+       /*linear-gradient(rgb(203, 203, 241), rgb(223, 223, 122)),*/
+        url(./images/falaise.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+
+ }
+ 
+  .btn{
+    display: inline-block;
+    padding:10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    /*transition: background-color 1s, color 1s, border 1s;*/
+    background-color: rgb(201, 153, 111);
+  }
+
+  a.btn:hover{
+      cursor: pointer;
+    background-color: steelblue;
+    border: 1px solid black;
+
+  }
+
+  .home-title {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+  }
+
+  /*header a{
+    
+    left: 40px;
+    top: 60%;
+  }*/
+
+  header p{
+   display: flex;
+    left: 40px;
+  }
+
+  h2{
+      text-align: center;
+      
+  }
+
+  /*PRESENTATION*/
+  
+.presentation{
+height: 300px;
+
+}
+
+.info{
+
+    height: 300px;
+    width: 20%;
+    padding: 10px 10px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}  
+
+.info h4{
+    text-align: center;
+
+}       
+
+/*GALERIE*/
+
+.galerie-photo{
+    background-color: cornflowerblue;
+    height: 450px;
+    width: 80%;
+   
+}
+
+
+/*LOGEMENTS ET EQUIPEMENTS*/
+
+
+.description h5{
+    color: rgb(9, 9, 153);
+
+}
+
+.description p{
+    text-align: left;
+}
+
+.matériel{
+    list-style: none;
+}
+
+.detecteur{
+    text-decoration-line: line-through;
+}
+
+/*LE QUARTIER*/
+
+.quartier{
+    border-top: rgb(33, 48, 94);
+  
+}
+
+
+
+/*COMMENTAIRES*/
+
+.clients{
+    background-image:linear-gradient(
+                                   rgba(227, 228, 175, 0.6),
+                                   rgba(238, 235, 231, 0.4)
+                                    ), 
+                      url(../images/ville.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  height: 600px;
+  }
+  
+.clients h2{
+    margin-top: 50px;
+  }
+  
+  .clients h2:after{
+    background-color: #fff;
+  }
+  
+  blockquote{
+    padding: 5px;
+    font-style: italic;
+    line-height: 130%;
+    margin-top: 20px;
+  }
+  
+  blockquote:before{
+    content:"\201C";
+    font-size: 800%;
+    font-family: 'Sanchez', serif;
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    color: rgba(255,255,255,0.5);
+        
+  }
+  
+  cite{
+    font-size: 90%;
+    display: block;
+    margin-top: 20px;
+    
+  }
+  
+  cite img{
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  /*CONTACT*/
+
+  /*.contact{
+      background: burlywood;
+    
+  }
+  
+.btn btn-primary{
+    background-color: cornflowerblue;
+    color: cornsilk;
+}*/
+
+/*FOOTER*/
+.footer{
+  background-color: grey;
+  color: rgb(70, 68, 68);
+  height:60px ;
+  padding: 20px;
+}
+
+.copyright{
+  text-align: center;
+}
+.copyright a{
+  color: #fff;
+}
