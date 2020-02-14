@@ -91,8 +91,8 @@ h2:after{
 
   /*PRESENTATION*/
   
-.presentation{
-height: 300px;
+#gite{
+height: 700px;
 
 }
 
@@ -113,9 +113,9 @@ height: 300px;
 
 /*GALERIE*/
 
-.galerie-photo{
-    background-color: cornflowerblue;
-    height: 450px;
+#galerie-photo{
+    
+    height: 100vh;
     width: 80%;
    
 }
@@ -124,12 +124,12 @@ height: 300px;
 /*LOGEMENTS ET EQUIPEMENTS*/
 
 
-.description h5{
+#description h5{
     color: rgb(9, 9, 153);
 
 }
 
-.description p{
+#description p{
     text-align: left;
 }
 
@@ -143,7 +143,7 @@ height: 300px;
 
 /*LE QUARTIER*/
 
-.quartier{
+#quartier{
     border-top: rgb(33, 48, 94);
   
 }
@@ -152,7 +152,7 @@ height: 300px;
 
 /*COMMENTAIRES*/
 
-.clients{
+#clients{
     background-image:linear-gradient(
                                    rgba(227, 228, 175, 0.6),
                                    rgba(238, 235, 231, 0.4)
@@ -163,11 +163,11 @@ height: 300px;
   height: 600px;
   }
   
-.clients h2{
+#clients h2{
     margin-top: 50px;
   }
   
-  .clients h2:after{
+#clients h2:after{
     background-color: #fff;
   }
   
