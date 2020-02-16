@@ -92,28 +92,31 @@ h2:after{
   /*PRESENTATION*/
   
 #gite{
-height: 700px;
+height: 500px;
 
 }
 
 .info{
 
-    height: 300px;
-    width: 20%;
+    height: 250px;
+   width: 100%;
     padding: 10px 10px;
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
+display: flex;
+flex-direction: column;
+justify-content: center;
+   
 }  
-
 .info h4{
-    text-align: center;
+  text-align: center;
+}
 
-}       
 
 /*GALERIE*/
 
-#galerie-photo{
+.galerie-photo{
     
     height: 100vh;
     width: 80%;
@@ -123,16 +126,17 @@ height: 700px;
 
 /*LOGEMENTS ET EQUIPEMENTS*/
 
-#description{
+#logement{
 background-color: rgb(189, 204, 204);
+
 }
 
-#description h5{
+.description h5{
     color: rgb(9, 9, 153);
 
 }
 
-#description p{
+.description p{
     text-align: left;
 }
 
